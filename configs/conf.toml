@@ -1,0 +1,4 @@
+threads = 1000
+proxy = ""
+user_agent = "rusty"
+oob_server = "oobserver here"

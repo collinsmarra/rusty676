@@ -1,0 +1,7 @@
+
+{
+	'name': 'bearer_auth',
+	'info': {'type': 'auth'},
+	'request': {'method': 'POST', 'path': '/', 'query_string': null, 'auth': 'Bearer '},
+	'response': {'type': 'regstr', 'part': 'headers', 'matchstr': 'Authorization', 'matchstatus': 'OK', 'condtion': 'and'}
+}

@@ -1,0 +1,19 @@
+name:
+  basic_conf
+
+info:
+  type: basic
+
+request:
+  method: GET
+  path: /
+  query_string: Null
+  creds: Null
+
+reponse:
+  type: regstr
+  part: headers
+  matchstr: Server
+  matchstatus: OK
+  matchcode: 200
+  condtion: or

@@ -1,0 +1,18 @@
+name:
+  bearer_auth
+
+info:
+  type: auth
+
+request:
+  method: POST
+  path: /
+  query_string: Null
+  creds: "Bearer b74e9660018dc72a628a11f6"
+
+response:
+  type: regstr
+  part: headers
+  matchstr: Authorization
+  matchstatus: OK
+  condtion: and

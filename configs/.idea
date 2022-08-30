@@ -1,0 +1,28 @@
+#: name
+
+
+#: =========================
+#: Requests
+#: =========================
+#:  - path
+#:  - method
+#:  - query string
+#:  - Auth type(default, no-auth)
+#:  - proxy (optional)
+#:
+#:
+#:
+#: =============================
+#: Responses
+#: =============================
+#:  - headers
+#:  - body (response string)
+#:  - status
+#:  - regex
+#:  -
+#:
+#:  - case study:
+#:        -> https://github.com/imhunterand/ApachSAL
+
+
+
