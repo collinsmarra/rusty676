@@ -60,7 +60,7 @@ pub async fn send_mul_urls(urls: Vec<String>) -> Result<(), Box<dyn Error>>{
                 .get(&*url).send().await.unwrap();
 
             count  += 1;
-            println!("Status: {:?}, {}", client.status(), count);
+            println!("Status: {:?},{}", client.status(), count);
         }
     });
 
